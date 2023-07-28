@@ -1,0 +1,59 @@
+body {
+    background-color: gray;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.saludo, .edad {
+    max-width: 768px;
+    background-color: purple;
+    padding: 3rem;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 3px black;
+    color: white;
+    text-align: center;
+}
+
+.saludo{
+    padding-top: 68px;
+}
+
+.edad {
+    margin-left: 20px;
+}
+
+.saludo h1 {
+    font-size: 40px;
+    margin-top: 0;
+}
+
+
+.saludo h2 {
+    margin-top: 0;
+}
+
+#h2b {
+    font-size: 35px;
+}
+
+.saludo button, .edad button {
+    width: 100%;
+    border: none;
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    background-color: goldenrod;
+    box-shadow: 1px 1px 1px black;
+    cursor: pointer;
+}
+
+button {
+    transition: 0.2s;
+}
+
+button:hover {
+    transform: scale(1.1);
+    box-shadow: 2px 2px 3px black;
+}
